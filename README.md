@@ -1,5 +1,7 @@
 # Fashe.
 
+Online Store using React, React Router, Redux, React Hooks, Firebase
+
 ## Quick Overview
 
 ```sh
