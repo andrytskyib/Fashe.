@@ -1,0 +1,30 @@
+.cartDropdown {
+  position: absolute;
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-top: 3px solid #e6e6e6;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  top: 80px;
+  right: 40px;
+
+  .cartDropdown__items {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-bottom: 10px;
+  }
+
+  .cartDropdown__emptyMessage {
+    font-size: 18px;
+    margin: 50px auto;
+  }
+
+  button {
+    margin-top: auto;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f0f0f0;
+  font-size: 13px;
+  padding: 45px;
+  display: flex;
+}
+
+.footerContent {
+  width: 20%;
+  padding: 30px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  & h4 {
+    margin-bottom: 21px;
+  }
+  & a,
+  & p {
+    max-width: 370px;
+    margin-top: 9px;
+    line-height: 1.8;
+  }
+}
+
+.footerContent_large {
+  width: 40%;
+}
+
+.footerSoc {
+  margin-top: 30px;
+  & i {
+    font-size: 18px;
+    color: #888;
+    margin-right: 20px;
+  }
+}
